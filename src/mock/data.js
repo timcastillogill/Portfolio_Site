@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Ravenous',
     info: 'This is a React web app that pulls restaurant data from the Yelp API in order for a user to view restaurants in the area they input. They can order by review count, review rating and best match.',
     info2: 'Built with Codecademy',
-    url: 'https://github.com/timcastillogill/Ravenous_ReactApp',
+    url: '',
     repo: 'https://github.com/timcastillogill/Ravenous_ReactApp', // if no repo, the button will not show up
   },
   {
@@ -50,8 +50,17 @@ export const projectsData = [
     title: 'Bank Tech Test',
     info: 'A tech test given at the end of the Makers course to prepare me for upcoming tech tests',
     info2: 'Written in Ruby and tested using the Rspec Framework',
-    url: 'https://github.com/timcastillogill/bank_tech_test_ruby',
+    url: '',
     repo: 'https://github.com/timcastillogill/bank_tech_test_ruby', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Game_Example_Picture_Pong.png',
+    title: 'Pong Game in Python',
+    info: 'The classic game of Pong whereby the ball must not get behind the paddle',
+    info2: 'Written in Python with the Turtle module',
+    url: '',
+    repo: 'https://github.com/timcastillogill/Pong-Game', // if no repo, the button will not show up
   },
 ];
 
