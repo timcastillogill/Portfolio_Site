@@ -18,7 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: "I'm Tim, a Maker and full-stack developer. I am seeking an opportunity to build products that make a difference in a variety of contexts as a junior developer.",
+  paragraphOne:
+    "I'm Tim, a Maker and full-stack developer. I am seeking an opportunity to build products that make a difference in a variety of contexts as a junior developer.",
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.github.com/timcastillogill/cv', // if no resume, the button will not show up
@@ -28,10 +29,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'lingumiSearchScreenshot.png',
+    title: 'Vid-Tutorial',
+    info:
+      'React app that instantly searches an API data source for videos. One search input for video title and teacher name and another search input for video tags.',
+    info2: 'This was part of a tech test for Lingumi',
+    url: '',
+    repo: 'https://github.com/timcastillogill/vid-tutorial-React', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'why_leave.png',
     title: 'Why Leave?',
-    info: 'The focus of this project is to inform people about conflicts, traumas and sociopolitical issues occurring in unrepresented, marginalised nations and countries on our planet. These issues cause inhabitants of these countries to seek refuge in order to survive or build better lives for themselves and their families (if they did not make the journey alone).',
-    info2: 'Reasons why people leave or flee their home countries is not common knowledge, and the topic is filled with a lot of ignorance - phrases like ‘they’re just here to take our jobs’ are untrue, damaging and completely misleading.',
+    info:
+      'The focus of this project is to inform people about conflicts, traumas and sociopolitical issues occurring in unrepresented, marginalised nations and countries on our planet. These issues cause inhabitants of these countries to seek refuge in order to survive or build better lives for themselves and their families (if they did not make the journey alone).',
+    info2:
+      'Reasons why people leave or flee their home countries is not common knowledge, and the topic is filled with a lot of ignorance - phrases like ‘they’re just here to take our jobs’ are untrue, damaging and completely misleading.',
     url: 'https://why-leave.vercel.app/',
     repo: 'https://github.com/timcastillogill/Why_Leave_Front_End', // if no repo, the button will not show up
   },
@@ -39,7 +52,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'ravenous.png',
     title: 'Ravenous',
-    info: 'This is a React web app that pulls restaurant data from the Yelp API in order for a user to view restaurants in the area they input. They can order by review count, review rating and best match.',
+    info:
+      'This is a React web app that pulls restaurant data from the Yelp API in order for a user to view restaurants in the area they input. They can order by review count, review rating and best match.',
     info2: 'Built with Codecademy',
     url: '',
     repo: 'https://github.com/timcastillogill/Ravenous_ReactApp', // if no repo, the button will not show up
