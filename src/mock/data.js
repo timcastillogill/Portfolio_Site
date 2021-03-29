@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'Vid-Tutorial',
     info:
       'React app that instantly searches an API data source for videos. One search input for video title and teacher name and another search input for video tags.',
-    info2: 'This was part of a tech test for Lingumi',
+    info2: '',
     url: '',
     repo: 'https://github.com/timcastillogill/vid-tutorial-React', // if no repo, the button will not show up
   },
